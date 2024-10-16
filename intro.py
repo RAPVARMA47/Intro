@@ -1,4 +1,5 @@
 import streamlit as st 
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -7,6 +8,7 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
 def main():
     
         st.write("""<h2 style='color: #2c3e50; text-align: center;'>Your Trusted Legal Assistant</h2>""", unsafe_allow_html=True)
